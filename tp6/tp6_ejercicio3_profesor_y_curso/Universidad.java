@@ -7,9 +7,9 @@ import java.util.ArrayList;
  * @author Fernando
  */
 public class Universidad {
-    String nombre;
-    ArrayList<Profesor> profesores = new ArrayList<>();
-    ArrayList<Curso> cursos = new ArrayList<>();
+    private String nombre;
+    private ArrayList<Profesor> profesores = new ArrayList<>();
+    private ArrayList<Curso> cursos = new ArrayList<>();
     
     public void agregarProfesor(Profesor p){
         this.profesores.add(p);

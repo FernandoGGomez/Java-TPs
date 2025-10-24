@@ -5,10 +5,10 @@ package tp6_ejercicio2_biblioteca_y_libros;
  * @author Fernando
  */
 public class Libro {
-    String isbn;
-    String titulo;
-    int anioPublicacion;
-    Autor autor;
+    private String isbn;
+    private String titulo;
+    private int anioPublicacion;
+    private Autor autor;
 
     public Libro(String isbn, String titulo, int anioPublicacion, Autor autor) {
         this.isbn = isbn;

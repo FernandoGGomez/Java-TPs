@@ -5,9 +5,9 @@ package tp6_ejercicio2_biblioteca_y_libros;
  * @author Fernando
  */
 public class Autor {
-    String id;
-    String nombre;
-    String nacionalidad;
+    private String id;
+    private String nombre;
+    private String nacionalidad;
     
     
     public Autor(String id, String nombre, String nacionalidad){

@@ -8,8 +8,8 @@ import java.util.List;
  * @author Fernando
  */
 public class Biblioteca {
-    String nombre;
-    List<Libro> libros;
+    private String nombre;
+    private List<Libro> libros;
     
     public Biblioteca(){
         this.libros = new ArrayList<Libro>();

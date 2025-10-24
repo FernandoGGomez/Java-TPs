@@ -8,10 +8,10 @@ import java.util.ArrayList;
  * @author Fernando
  */
 public class Profesor {
-    String id; 
-    String nombre;
-    String especialidad; 
-    ArrayList<Curso> cursos = new ArrayList<>();
+    private String id; 
+    private String nombre;
+    private String especialidad; 
+    private ArrayList<Curso> cursos = new ArrayList<>();
     
     
     public Profesor(String id, String nombre, String especialidad) {

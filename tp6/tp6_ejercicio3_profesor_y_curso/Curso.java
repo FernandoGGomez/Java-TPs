@@ -5,9 +5,9 @@ package tp6_ejercicio3_profesor_y_curso;
  * @author Fernando
  */
 public class Curso {
-    String codigo;
-    String nombre;
-    Profesor profesor;
+    private String codigo;
+    private String nombre;
+    private Profesor profesor;
     
     
     public Curso(String codigo, String nombre) {
